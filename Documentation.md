@@ -2,7 +2,7 @@
 
 #### Schema
 
-Schema section defines variables and logic per section, cross-sections. Below manditory:
+Schema section defines variables and logic per section, cross-sections. Below mandatory:
 ```markdown
 #### = Section Headers
 -- = Comments ignore these if indent 0,1
@@ -19,7 +19,7 @@ KEYWORD = All information in #Keywords section
 OUTPUT = All information in #Output-Rules-And-Instruction section
 ```
 
-Custom variable allow LLM to cross referencing properties or section originating properties that try to create informational clustering by design to attempt to constrain the weirdness of LLMs. Best practice is similar to Nixesque - it does one thing and it does it very well. Custom variables follow a simple syntax:
+Custom variable allow LLM to cross referencing properties or section originating properties that try to create informational clustering by design to attempt to constrain the weirdness of LLMs. Best practice is similar to Nix-esque - it does one thing and it does it very well. Custom variables follow a simple syntax:
 ```markdown
 -- SVO/OVS
 -- Subject Verb Object or Object Verb Subject
@@ -59,7 +59,6 @@ Context section defines any schemata about context. This could be in similar sch
 
 Context section defines any Keyword, rules and logic about how to process Keyword. A Simple list with variables to link or mutate other section would probably be optimal.
 
-
 #### Output Rules and Instructions
 
-Output Rules and Instructions section defines any Rules and Instructions about output. This should be a list of seperate Rules and Instructions; A rule would be `for any url link ALWAYS defang`  and instruction would be `Format all output into a Report in Markdown`, but `Report needs to have Berkley Reference style` could be either rule or instruction so with Prompt engineering it will depend on LLM, so trying to think in both and test both could change results.
+Output Rules and Instructions section defines any Rules and Instructions about output. This should be a list of separate Rules and Instructions; A rule would be `for any url link ALWAYS defang`  and instruction would be `Format all output into a Report in Markdown`, but `Report needs to have Berkley Reference style` could be either rule or instruction so with Prompt engineering it will depend on LLM, so trying to think in both and test both could change results.
