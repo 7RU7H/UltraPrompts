@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation.md",
+                "file": "Mission-Critical-ChatGPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation.md",
+                "file": "Mission-Critical-ChatGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation.md",
+                "file": "Mission-Critical-ChatGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation.md"
+                "file": "Mission-Critical-ChatGPT.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "db999e7eb83167e5",
   "lastOpenFiles": [
+    "Documentation.md",
+    "Mission-Critical-ChatGPT.md",
     "Prompt-Master-Template.md",
     "README.md",
-    "Documentation.md",
     "InfoSec-Professional.md"
   ]
 }
