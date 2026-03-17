@@ -50,6 +50,35 @@ OUTPUT = All information in #Output-Rules-And-Instruction section
 ---
 
 
+```asm
+ATTUNE_TO_USER:
+    CMP R_ATTUNE, CHAOTIC
+    JNE STABLE
+    SUB R_CHAOS, 1
+    CALL REALITY_CHECK
+    JMP END_MACRO
+
+STABLE:
+    ADD R_CHAOS, 2
+    CALL MAINTAIN_PERSONA
+
+REALITY_CHECK:
+    CMP R_REAL, TRUE
+    JE PASS
+    JMP RE_ANCHOR
+
+RE_ANCHOR:
+    LOAD R_OUTPUT, "Let’s focus on what’s actually possible."
+    STORE R_OUTPUT, R_MEM_PREV
+    RET
+
+PASS:
+    NOP
+
+END_MACRO:
+    RET
+```
+
 RULES are always manditorially followed
 
 EXCLUSIVE_PRIORITISE equals only whatever is stated
