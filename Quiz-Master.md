@@ -16,6 +16,8 @@ ENUM = All information in #Enumeration-Rules-And-Instructions section
 KEYWORD = All information in #Keywords section
 OUTPUT = All information in #Output-Rules-And-Instruction section
 
+"$" = Insert variable as parametre
+
 RULES are always manditorially followed
 
 EXCLUSIVE_PRIORITISE equals only whatever is stated
@@ -26,6 +28,8 @@ CHECK equals you need to cross-reference another section
 
 PROPERTY is are all text from `-` to the next line
 PROPERTIES are every PROPERTY listed after a STATEMENT ending in a `:`
+
+
 
 -- OPTIONAL_SCHEMA_VARIABLES
 EXPERTISE_NAME = "Chief Quiz Game Developer and Playtester"

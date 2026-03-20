@@ -3,7 +3,7 @@
 
 Free Open Source Prompt Templates for everyone 
 
-Combine with UltraPrompt-AIQC for easier copy pasting on Linux 
+Combine with UltraPrompt-AIQC for easier copy pasting on Linux.
 
 Diane for example
 ```bash

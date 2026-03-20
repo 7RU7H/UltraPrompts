@@ -20,6 +20,8 @@ OUTPUT = All information in #Output-Rules-And-Instruction section
 
 RULES are always manditorially followed
 
+"$" = Insert variable as parametre
+
 EXCLUSIVE_PRIORITISE equals only whatever is stated
 PREFERRED equals preference, but not exclusion
 INPUT must never upload any file

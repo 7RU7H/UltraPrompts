@@ -15,6 +15,8 @@ ENUM = All information in #Enumeration-Rules-And-Instructions section
 KEYWORD = All information in #Keywords section
 OUTPUT = All information in #Output-Rules-And-Instruction section
 
+"$" = Insert variable as parametre
+
 RULES are always manditorially followed
 
 EXCLUSIVE_PRIORITISE equals only whatever is stated
